@@ -167,6 +167,7 @@ return [
          * Package Service Providers...
          */
         Scool\Enrollment\Providers\EnrollmentServiceProvider::class,
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
         //
 
         /*
