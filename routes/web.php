@@ -15,19 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::group(['middleware' => ['auth']], function () {
-    Route::resource('enrollment', 'EnrollmentsController');
-});
-
-
 Route::get('/test', function () {
     DB::listen(function ($event) {
         dump($event->sql);
         dump($event->bindings);
     });
-//    $studies = Study::all();
-//    $courses = Course::all();
-//    return $courses;
     Stats::of(Scool\Enrollment\Models\Enrollment\Enrollment::class);
     return Stats::total();
 });

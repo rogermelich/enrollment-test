@@ -4,9 +4,42 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eb298ffee365346ca7c31de400ca5b7c",
-    "content-hash": "f899195a25d305a2be2ee6ec53d998d1",
+    "hash": "e2107d4d284862b0bea55de0c4540c4e",
+    "content-hash": "ff8ff382c7a9274e56ed370109b6ae58",
     "packages": [
+        {
+            "name": "acacha/names",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acacha/names.git",
+                "reference": "4012b58dea1e4f093c1e1a9d9d3dac41c5f2c80b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acacha/names/zipball/4012b58dea1e4f093c1e1a9d9d3dac41c5f2c80b",
+                "reference": "4012b58dea1e4f093c1e1a9d9d3dac41c5f2c80b",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Acacha\\Names\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Sergi Tur Badenas",
+                    "email": "sergiturbadenas@gmail.com"
+                }
+            ],
+            "description": "Provides alternative names to Laravel models.",
+            "time": "2016-11-27 07:25:47"
+        },
         {
             "name": "barryvdh/laravel-debugbar",
             "version": "v2.3.0",
@@ -60,6 +93,121 @@
                 "webprofiler"
             ],
             "time": "2016-09-15 14:05:56"
+        },
+        {
+            "name": "barryvdh/laravel-ide-helper",
+            "version": "v2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/barryvdh/laravel-ide-helper.git",
+                "reference": "105f14a50d0959a0e80004a15b3350fdf78f9623"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/105f14a50d0959a0e80004a15b3350fdf78f9623",
+                "reference": "105f14a50d0959a0e80004a15b3350fdf78f9623",
+                "shasum": ""
+            },
+            "require": {
+                "barryvdh/reflection-docblock": "^2.0.4",
+                "illuminate/console": "^5.0,<5.4",
+                "illuminate/filesystem": "^5.0,<5.4",
+                "illuminate/support": "^5.0,<5.4",
+                "php": ">=5.4.0",
+                "symfony/class-loader": "^2.3|^3.0"
+            },
+            "require-dev": {
+                "doctrine/dbal": "~2.3",
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "suggest": {
+                "doctrine/dbal": "Load information from the database about models for phpdocs (~2.3)"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Barryvdh\\LaravelIdeHelper\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+            "keywords": [
+                "autocomplete",
+                "codeintel",
+                "helper",
+                "ide",
+                "laravel",
+                "netbeans",
+                "phpdoc",
+                "phpstorm",
+                "sublime"
+            ],
+            "time": "2016-11-15 08:21:23"
+        },
+        {
+            "name": "barryvdh/reflection-docblock",
+            "version": "v2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/barryvdh/ReflectionDocBlock.git",
+                "reference": "3dcbd98b5d9384a5357266efba8fd29884458e5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/barryvdh/ReflectionDocBlock/zipball/3dcbd98b5d9384a5357266efba8fd29884458e5c",
+                "reference": "3dcbd98b5d9384a5357266efba8fd29884458e5c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0,<4.5"
+            },
+            "suggest": {
+                "dflydev/markdown": "~1.0",
+                "erusev/parsedown": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Barryvdh": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike van Riel",
+                    "email": "mike.vanriel@naenius.com"
+                }
+            ],
+            "time": "2016-06-13 19:28:20"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -1257,8 +1405,13 @@
                 "shasum": null
             },
             "require": {
+                "acacha/names": "^0.2.1",
+                "acacha/stateful-eloquent": "dev-master",
                 "fzaninotto/faker": "^1.6",
-                "laravel/framework": "^5.3"
+                "laravel/framework": "^5.3",
+                "prettus/l5-repository": "^2.6",
+                "scool/foundation": "^0.1.0",
+                "spatie/laravel-permission": "^1.5"
             },
             "type": "library",
             "autoload": {
@@ -1276,6 +1429,112 @@
                 }
             ],
             "description": "Module Wizard to Enroll Students"
+        },
+        {
+            "name": "scool/foundation",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acacha-scool/foundation.git",
+                "reference": "a9aea12de9c1d0ab5539b49321ea8d6b90206e53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acacha-scool/foundation/zipball/a9aea12de9c1d0ab5539b49321ea8d6b90206e53",
+                "reference": "a9aea12de9c1d0ab5539b49321ea8d6b90206e53",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^5.3",
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0||~5.0",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Scool\\Foundation\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergi Tur Badenas",
+                    "email": "sergiturbadenas@gmail.com",
+                    "homepage": "https://github.com/acacha",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Foundation classes for Scool",
+            "homepage": "https://github.com/acacha-scool/foundation",
+            "keywords": [
+                "Scool",
+                "foundation"
+            ],
+            "time": "2016-11-17 20:03:50"
+        },
+        {
+            "name": "spatie/laravel-permission",
+            "version": "1.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-permission.git",
+                "reference": "a67a0dca1d3aab7316d2e265c358f3d23ba9278c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/a67a0dca1d3aab7316d2e265c358f3d23ba9278c",
+                "reference": "a67a0dca1d3aab7316d2e265c358f3d23ba9278c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.1.0|~5.2.0|~5.3.0",
+                "laravel/framework": "~5.1.11|~5.2.0|~5.3.0",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.1.4",
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Permission\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Permission handling for Laravel 5.1",
+            "homepage": "https://github.com/spatie/laravel-permission",
+            "keywords": [
+                "acl",
+                "laravel",
+                "permission",
+                "security",
+                "spatie"
+            ],
+            "time": "2016-12-14 23:41:39"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1329,6 +1588,62 @@
                 "mailer"
             ],
             "time": "2016-07-08 11:51:25"
+        },
+        {
+            "name": "symfony/class-loader",
+            "version": "v3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/class-loader.git",
+                "reference": "87cd4e69435d98de01d0162c5f9c0ac017075c63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/class-loader/zipball/87cd4e69435d98de01d0162c5f9c0ac017075c63",
+                "reference": "87cd4e69435d98de01d0162c5f9c0ac017075c63",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "symfony/finder": "~2.8|~3.0",
+                "symfony/polyfill-apcu": "~1.1"
+            },
+            "suggest": {
+                "symfony/polyfill-apcu": "For using ApcClassLoader on HHVM"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\ClassLoader\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony ClassLoader Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-11-29 08:26:13"
         },
         {
             "name": "symfony/console",
@@ -2162,6 +2477,56 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "acacha/stateful-eloquent",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acacha/stateful-eloquent.git",
+                "reference": "8b973aa58f86932c4dab5f5d5f3046f10a862b1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acacha/stateful-eloquent/zipball/8b973aa58f86932c4dab5f5d5f3046f10a862b1b",
+                "reference": "8b973aa58f86932c4dab5f5d5f3046f10a862b1b",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.3.*",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Acacha\\Stateful\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergi Tur Badenas",
+                    "email": "sergiturbadenas@gmail.com"
+                },
+                {
+                    "name": "Mike Rice",
+                    "email": "mike.hj.rice@gmail.com"
+                }
+            ],
+            "description": "State machines for Eloquent classes",
+            "homepage": "https://github.com/mikerice/stateful-eloquent",
+            "keywords": [
+                "eloquent",
+                "laravel",
+                "statemachine"
+            ],
+            "time": "2016-11-20 19:10:25"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.0.5",
