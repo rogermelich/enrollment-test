@@ -188,6 +188,10 @@ return [
          */
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+        Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
+        Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
+        Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
+        Spatie\Menu\Laravel\MenuServiceProvider::class,
         #llum_providers
 
     ],
@@ -244,7 +248,10 @@ return [
          * See: https://github.com/acacha/llum
          */
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
-        'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'AdminLTE' => Acacha\AdminLTETemplateLaravel\Facades\AdminLTE::class,
+        'Menu' => Spatie\Menu\Laravel\MenuFacade::class,
+        'Link' => Spatie\Menu\Laravel\Link::class,
+        'Html' => Spatie\Menu\Laravel\Html::class,
         #llum_aliases
 
     ],

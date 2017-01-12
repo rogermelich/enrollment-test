@@ -10,7 +10,10 @@
         "scool/enrollment": "dev-master",
         "barryvdh/laravel-debugbar": "^2.3",
         "prettus/l5-repository": "^2.6",
-        "barryvdh/laravel-ide-helper": "^2.2"
+        "barryvdh/laravel-ide-helper": "^2.2",
+        "acacha/admin-lte-template-laravel": "^3.3",
+        "acacha/stateful-eloquent": "^0.1.0",
+        "spatie/laravel-menu": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
