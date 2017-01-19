@@ -25,7 +25,11 @@
                             @foreach ($enrollments as $enrollment)
                                 <tr>
                                     <td>{{ $enrollment->id  }}</td>
-                                    <td>{{ $enrollment->validated }}</td>
+                                    <td>{{ $enrollment->user_id  }}</td>
+                                    <td>{{ $enrollment->study_id  }}</td>
+                                    <td>{{ $enrollment->course_id  }}</td>
+                                    <td>{{ $enrollment->classrom_id  }}</td>
+                                    <td>{{ $enrollment->state }}</td>
                                     <td>{{ $enrollment->finished }}</td>
                                 </tr>
                             @endforeach

@@ -167,6 +167,7 @@ return [
          * Package Service Providers...
          */
         Scool\Enrollment\Providers\EnrollmentServiceProvider::class,
+        Scool\Curriculum\Providers\CurriculumServiceProvider::class,
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
         //
@@ -188,8 +189,6 @@ return [
          */
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
-        Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
-        Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
         Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
         Spatie\Menu\Laravel\MenuServiceProvider::class,
         #llum_providers

@@ -1,6 +1,9 @@
 {
     "version": 2,
     "paths": [
-        "/home/roger/Code/scool/enrollment"
+        "../enrollment",
+        "../curriculum",
+        "../acacha/names",
+        "../acacha/l5-repository"
     ]
 }
