@@ -16,7 +16,9 @@
         "spatie/laravel-menu": "^2.0",
         "scool/foundation": "^0.1.0",
         "scool/curriculum": "dev-master",
-        "acacha/names": "dev-master"
+        "acacha/names": "dev-master",
+        "laravel/socialite": "~v2.0.20",
+        "guzzlehttp/guzzle": "^6.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

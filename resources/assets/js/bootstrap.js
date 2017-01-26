@@ -14,6 +14,11 @@ require('admin-lte');
 window.toastr = require('toastr');
 require('icheck');
 
+// Gritcode to Wizard http://gritcode.github.io/gritcode-components/#/
+require ('gritcode-components');
+window.gritcode = require('gritcode-components');
+
+
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
  * using reactive data binding and reusable components. Vue's API is clean

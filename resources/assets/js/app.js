@@ -15,6 +15,9 @@ require('./bootstrap');
 
 Vue.component('example', require('./components/Example.vue'));
 
+// Enrollment Wizard
+Vue.component('wizard', require('./components/Wizard.vue'));
+
 const app = new Vue({
     el: '#app'
 });
